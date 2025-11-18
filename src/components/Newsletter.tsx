@@ -16,11 +16,11 @@ export default function Newsletter() {
           <input
             type="email"
             placeholder="Enter your email"
-            className="flex-1 bg-cream-900/10 border border-cream-700/30 text-[#FAF6F0] px-6 py-4 focus:outline-none focus:border-bronze-500 transition-colors duration-300 placeholder-cream-500"
+            className="flex-1 bg-cream-900/10 border border-cream-700/30 text-[#FAF6F0] px-6 py-4 rounded-full focus:outline-none focus:border-forest-500 transition-colors duration-300 placeholder-cream-500"
           />
           <button
             type="submit"
-            className="bg-bronze-500 hover:bg-bronze-600 text-black px-8 py-4 font-semibold tracking-wider transition-all duration-300 flex items-center justify-center gap-2 group"
+            className="bg-forest-500 hover:bg-forest-600 text-cream-50 px-8 py-4 rounded-full font-semibold tracking-wider transition-all duration-300 flex items-center justify-center gap-2 group shadow-lg hover:shadow-xl"
           >
             SUBSCRIBE
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

@@ -44,17 +44,17 @@ export default function WhyChooseUs() {
           <p className="text-cream-300 text-lg max-w-2xl mx-auto">
             We combine nature's best ingredients with scientific innovation to create products that truly transform.
           </p>
-          <div className="w-24 h-1 bg-bronze-500 mx-auto mt-6"></div>
+          <div className="w-24 h-1 bg-forest-500 mx-auto mt-6"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {reasons.map((reason) => (
             <div
               key={reason.title}
-              className="group bg-gradient-to-b from-cream-900/5 to-transparent border border-cream-800/20 hover:border-bronze-500/50 p-8 transition-all duration-500 hover:translate-y-[-4px]"
+              className="group bg-gradient-to-b from-cream-900/5 to-transparent border border-cream-800/20 hover:border-forest-500/50 p-8 transition-all duration-500 hover:translate-y-[-4px]"
             >
-              <div className="mb-6 p-4 bg-bronze-500/10 w-fit rounded-full group-hover:bg-bronze-500/20 transition-colors duration-300">
-                <reason.icon className="w-6 h-6 text-bronze-400" />
+              <div className="mb-6 p-4 bg-forest-500/10 w-fit rounded-full group-hover:bg-forest-500/20 transition-colors duration-300">
+                <reason.icon className="w-6 h-6 text-forest-400" />
               </div>
               <h3 className="text-xl font-bold text-[#FAF6F0] mb-3 tracking-wider">
                 {reason.title}

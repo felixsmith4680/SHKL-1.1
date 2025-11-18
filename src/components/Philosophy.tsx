@@ -6,7 +6,7 @@ export default function Philosophy() {
           <div className="text-center max-w-3xl">
             <h2 className="text-3xl md:text-5xl font-bold text-[#FAF6F0] mb-6 tracking-tight leading-tight">
               SCIENCE MEETS
-              <span className="block text-bronze-400 mt-2">INNOVATION</span>
+              <span className="block text-forest-400 mt-2">INNOVATION</span>
             </h2>
 
             <div className="space-y-4 text-cream-300 leading-relaxed">
@@ -25,7 +25,7 @@ export default function Philosophy() {
 
             <div className="mt-8 flex justify-center">
               <div className="text-center">
-                <div className="text-3xl font-bold text-bronze-400 mb-2">100%</div>
+                <div className="text-3xl font-bold text-forest-400 mb-2">100%</div>
                 <div className="text-cream-400 text-sm tracking-wide">NATURAL</div>
               </div>
             </div>
